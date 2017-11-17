@@ -17,7 +17,7 @@ Our [innumeracy](https://www.wikiwand.com/en/Numeracy) prevents many from interp
 
 Only a very tiny minority will be able to see the battery usage curve described by the numbers. Consider the following graph:
 
-![](./non_trivial_intro/figures/6.png)
+![](./a_real_world_gnuplot_introduction/figures/6.png)
 
 Most people can immediately grasp the phone battery's longevity and rate of decay. It's the gap between the tabular and graphic representation of the data that makes generating graphics ("plotting") compelling.
 
@@ -29,7 +29,7 @@ There's an awful lot of gnuplot documented online, many with pretty trivial exam
 
 <table>
 	<tr>
-		<td width="20%"><img src="./non_trivial_intro/figures/7.png"></td>
+		<td width="20%"><img src="./a_real_world_gnuplot_introduction/figures/7.png"></td>
 		<td><a href="./non_trivial_intro/README.md">gnuplot ~ a non-trivial introduction</a> covers gnuplot installation, deployment, and from basic use cases through having gnuplot calculate and elide data you don't want to see. Start here to cover your basic plotting needs.</td>
 	</tr>
 	<tr>
