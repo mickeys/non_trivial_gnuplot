@@ -30,7 +30,7 @@ There's an awful lot of gnuplot documented online, many with pretty trivial exam
 <table>
 	<tr>
 		<td width="20%"><img src="./a_real_world_gnuplot_introduction/figures/7.png"></td>
-		<td><a href="./non_trivial_intro/README.md">gnuplot ~ a non-trivial introduction</a> covers gnuplot installation, deployment, and from basic use cases through having gnuplot calculate and elide data you don't want to see. Start here to cover your basic plotting needs.</td>
+		<td><a href="./a_real_world_gnuplot_introduction/README.md">gnuplot ~ a non-trivial introduction</a> covers gnuplot installation, deployment, and from basic use cases through having gnuplot calculate and elide data you don't want to see. Start here to cover your basic plotting needs.</td>
 	</tr>
 	<tr>
 		<td><img src="././graphing_ping/graphing_ping.gif"></td>
