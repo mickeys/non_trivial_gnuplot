@@ -22,7 +22,7 @@ Nothing happens without data. Here's a sample of the data that we'll be plotting
 
 1. the data are two colums of related information, the first quantity is a battery percentage and the second is elapsed time, in seconds.
 2. the datasets start with a full battery (a number at or near 100%), decrease towards an empty battery (0%), and [optionally] rise back towards full as the phone is plugged back in.
-3. the data are presented in [comma-seperated value](https://en.wikipedia.org/wiki/Comma-separated_values) (CSV) format.
+3. the data are presented in [comma-separated value](https://en.wikipedia.org/wiki/Comma-separated_values) (CSV) format.
 
 ```
 100,0
