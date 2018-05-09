@@ -1,8 +1,8 @@
 # Real-time monitoring and graphing of ping
 
-I've been around, and let me tell you, sometimes it's not all it's cracked up to be, especially the networking, the Wi-Fi and wired connections both. Recently my productivity has been sorely challanged by exceedingly poor infrastructure. What's a coder to do? Well, write some code, of course.
+I've been around, and let me tell you, sometimes it's not all it's cracked up to be, especially the networking, the Wi-Fi and wired connections both. Recently my productivity has been sorely challenged by exceedingly poor infrastructure. What's a coder to do? Well, write some code, of course.
 
-**Goal**: I'd like to measure some quality of the connection between my computer and another one out there on the 'net. I'll show you how to see that connection quality first in text feormat, and then in graphic form. Each has its uses. You'll thank me later :-)
+**Goal**: I'd like to measure some quality of the connection between my computer and another one out there on the 'net. I'll show you how to see that connection quality first in text format, and then in graphic form. Each has its uses. You'll thank me later :-)
 
 NOTE: My efforts were done in `bash` on <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>, which is a UNIX variant called 'darwin'. I believe all this code is portable to <a href="https://www.linux.org/">Linux</a> and <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">Ubuntu for Windows</a>. If you find a bug, please let me know. Code fragments will be used to describe useful patters; the complete source code appears at the bottom.
 
@@ -50,7 +50,7 @@ We'll be using UNIX's `ping` program, which <a href="https://en.wikipedia.org/wi
 ping -i $interval_in_seconds $target
 ```
 
-Here's how it all looks like: the computer tells you it's ready for you by showing you a `%`. (Your terminal may show something different, ilke `yourname $`, but you get the idea.) We're going to tell ping to, well, ping computer 8.8.8.8 repeatedly, at an interval of 1 second between pings.
+Here's how it all looks like: the computer tells you it's ready for you by showing you a `%`. (Your terminal may show something different, like `yourname $`, but you get the idea.) We're going to tell ping to, well, ping computer 8.8.8.8 repeatedly, at an interval of 1 second between pings.
 
 In response, ping will forever hit that machine, reporting (at the end of each line) how long it took for a message to go between the computers, in milliseconds. Shorter times are better; longer times result in your interactions with that computer feel laggy.
 
@@ -165,11 +165,11 @@ fi
 
 ## The whole solution
 
-As you're preusing the code for  `pinger.sh`note please two coding styles that I heartily recommend:
+As you're perusing the code for  `pinger.sh`note please two coding styles that I heartily recommend:
 
 * Defensive programming - because I long-ago learned that if I didn't take time to write code to test all the possible things that can go wrong then I'll spend way longer when something unexpected is encountered and my program falls over.
 
-* Copieus comments - because there's nothing quite a frustrating as spending time figuring out what you were thinking when you wrote the code that just fell over. Stream-of-consciousness commenting, adding explanations as you're actually writing the code, saves countless hours later. Trust me on both of these points.
+* Copious comments - because there's nothing quite a frustrating as spending time figuring out what you were thinking when you wrote the code that just fell over. Stream-of-consciousness commenting, adding explanations as you're actually writing the code, saves countless hours later. Trust me on both of these points.
 
 `pinger.sh`. may be found in the same directory as this README, and available online at
 [https://github.com/mickeys/gnuplot/blob/master/graphing_ping/pinger.sh?ts=4
