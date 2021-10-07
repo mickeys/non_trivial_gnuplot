@@ -142,7 +142,7 @@ which is updated every `$interval`.
 
 And there you go: live graphing of generated data!
 
-There are so many possible improvements, starting with passing the target on the command line, to dealing with being in China, to using a Caca terminal to get prcetty graphic output instead of keyboard characters on a dumb terminal.
+There are so many possible improvements, starting with passing the target on the command line, to dealing with being in China, to using a Cacao terminal to get pretty graphic output instead of keyboard characters on a dumb terminal.
 
 ## The Great Firewall of China 防火长城
 
