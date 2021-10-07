@@ -4,7 +4,7 @@ I've been around, and let me tell you, sometimes it's not all it's cracked up to
 
 **Goal**: I'd like to measure some quality of the connection between my computer and another one out there on the 'net. I'll show you how to see that connection quality first in text format, and then in graphic form. Each has its uses. You'll thank me later :-)
 
-NOTE: My efforts were done in `bash` on <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>, which is a UNIX variant called 'darwin'. I believe all this code is portable to <a href="https://www.linux.org/">Linux</a> and <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">Ubuntu for Windows</a>. If you find a bug, please let me know. Code fragments will be used to describe useful patters; the complete source code appears at the bottom.
+NOTE: My efforts were done in `bash` on <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a>, which is a UNIX variant called 'darwin'. I believe all this code is portable to <a href="https://www.linux.org/">Linux</a> and <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about">Ubuntu for Windows</a>. If you find a bug, please let me know. Code fragments will be used to describe useful patterns; the complete source code appears at the bottom.
 
 ## Aim for a target
 
