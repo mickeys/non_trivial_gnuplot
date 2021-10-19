@@ -88,7 +88,7 @@ ping: sendto: No route to host
 
 Look at that, we're already past the preamble. Not a lot of requisite experience needed. Let's move on to our program, which is broken into two interacting parts:
 
-1. The _collector_, gathering data on the health of the connection between your computer and `$arget`, and
+1. The _collector_, gathering data on the health of the connection between your computer and `$target`, and
 2. The _grapher_, which will pictorially display the data.
 
 ### The collector
